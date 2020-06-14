@@ -109,7 +109,7 @@
     }
 
     .button3 {
-        margin-top: -22px;
+        margin-top: -20px;
         /* margin-left: -5px; */
         
     }
@@ -165,7 +165,7 @@
 .our-service .service-reg .btn {
     border-radius: 50px;
     color: white;
-    width: 130px;
+    width: 110px;
     height: auto;
     background-color: blue;
 }
@@ -191,7 +191,7 @@
 .our-service .service-yes .btn {
     border-radius: 50px;
     color: white;
-    width: 130px;
+    width: 110px;
     height: auto;
     background-color:orange;
 }
