@@ -219,7 +219,7 @@
     }
 
     .berita .nav {
-        margin-left: -90px;
+        /* margin-left: -90px; */
     }
 
     .berita .tab-content {
@@ -227,7 +227,7 @@
         height: 555px;
         padding: 25px;
         overflow: scroll;
-        margin-left: 30px;
+        margin-left: 10px;
     }
 
    
