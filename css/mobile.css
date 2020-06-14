@@ -215,11 +215,11 @@
         margin-top: 40px;
         float: left;
         width: 100%;
-        margin-bottom: 150px;
+        margin-bottom: 70px;
     }
 
     .berita .nav {
-        /* margin-left: -90px; */
+        margin-left: -90px;
     }
 
     .berita .tab-content {
