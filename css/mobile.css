@@ -339,6 +339,7 @@
     .yes .bg-yes .button2 {
         width: 110px;
         height: 40px;
+        margin-left: 5px;
     }
 
     .yes-konten {
