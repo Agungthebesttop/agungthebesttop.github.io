@@ -223,7 +223,7 @@
     }
 
     .berita .tab-content {
-        width: 65%;
+        width: 100%;
         height: 555px;
         padding: 25px;
         overflow: scroll;
