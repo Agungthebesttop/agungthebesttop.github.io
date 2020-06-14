@@ -213,13 +213,13 @@
 
     .berita .kurir-sepeda {
         margin-top: 40px;
-        float: left;
+        /* float: left; */
         width: 100%;
         margin-bottom: 70px;
     }
 
     .berita .nav {
-        margin-left: -200px;
+        margin-left: -150px;
     }
 
     .berita .tab-content {
