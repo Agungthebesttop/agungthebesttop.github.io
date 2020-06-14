@@ -218,7 +218,7 @@
     }
 
     .berita .nav {
-        margin-left: -90px;
+        margin-left: -150px;
     }
 
     .berita .tab-content {
@@ -233,6 +233,10 @@
 
     .partners {
         margin-top: 100px;
+    }
+
+    .partners .lambang{
+        margin-top: 30px;
     }
 
     .ic_sponsor {
@@ -288,9 +292,7 @@
         font size: 65px;
     }
 
-    .review .button-rating:hover {
-        background-color: blueviolet;
-    }
+   
 
     /* footer */
     .footer {
