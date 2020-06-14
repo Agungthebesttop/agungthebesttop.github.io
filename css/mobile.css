@@ -74,7 +74,7 @@
         height: 417px;
         box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
         border-radius: 30px;
-        padding-left: 1px;
+        padding: 10px 10px 10px 10px;
     }
 
     .ongkir-lacak .lacak {
@@ -104,13 +104,14 @@
     }
 
     .ongkir .btn {
-        width: 95px;
+        width: 110px;
         height: auto;
         margin: 5px;
     }
 
     .button3 {
         margin-top: -23px;
+        
     }
 
     /* our-service */

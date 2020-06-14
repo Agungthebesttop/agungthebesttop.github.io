@@ -73,6 +73,7 @@ body {
     height: 417px;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
     border-radius: 30px;
+    padding: 50px 30px 10px 30px;
 }
 
 .ongkir-lacak .lacak {
@@ -104,6 +105,10 @@ body {
     margin: 5px;
 }
 
+.button3 {
+    margin-left: 5px;
+    
+}
 
 /* our-service */
 /* .our-service .service-yes {
