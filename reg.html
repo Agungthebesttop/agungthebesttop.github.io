@@ -48,11 +48,11 @@
         <div class="container">
             <div class="bg-yes">
                 <div class="row">
-                    <div class="col-lg-5">
+                    <div class="col-lg-5" id="left">
                         <img src="./Assets/img/kurir2.jpg" alt="kurir2" class="kurir2">
                     </div>
-                    <div class="col-lg-6 yes-konten">
-                        <h2>REG (Reguler)</h2>
+                    <div class="col-lg-6 yes-konten" id="top">
+                        <h2 id="right">REG (Reguler)</h2>
                         <p>
                             <h6>Hitung estimasi biaya pengiriman paket anda 
                                 dengan <br> layanan REG</h6>
@@ -81,14 +81,14 @@
     <!-- Partner -->
     <section class="partners" style="margin-top: 480px;">
       <div class="container">
-        <div class="row text-center">
+        <div class="row text-center" id="bottom">
           <div class="col">
               <h1>Ours <b>Partners </b></h1>
               <hr style="width: 50px; border-width: 3px; border-color: black;">
           </div>
         </div>
 
-        <div class="row justify-content-center lambang">
+        <div class="row justify-content-center lambang" id="left">
           <div class="col-lg-10 text-center">
             <img src="./Assets/logo/logo_tokopedia.png" alt="ic_tokped" class="ic_sponsor">
             <img src="./Assets/logo/logo_shopp-1.png" alt="ic_tokped" class="ic_sponsor">
@@ -110,7 +110,7 @@
       <img src="./Assets/visual/visual2.png" alt="visual2" width="100%" height="auto"> 
       <div class="container">
         <div class="row justify-content-between">
-          <div class="col-lg-5">
+          <div class="col-lg-5" id="left">
             <div class="apa-kata-mereka">
             <h1><b>Apa Kata Mereka</b><br>
                   Tentang Kami </h1>
@@ -135,7 +135,7 @@
             </p>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3" id="right">
           <div class="review-konten text-center">
             <h1>4.8</h1>
             <h5>Widi Saputra</h5>
@@ -147,7 +147,7 @@
           </div>
         </div>
 
-        <div class="col-lg-3">
+        <div class="col-lg-3" id="right">
           <div class="review-konten text-center">
             <h1>4.8</h1>
             <h5>Widi Saputra</h5>
@@ -201,5 +201,71 @@
     <script src="./js/jquery.min.js" ></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js" ></script>
+    <script src="./js/scrollreveal.min.js"></script>
+    <script>
+      ScrollReveal().reveal('#bottom', {
+        // delay:3000;
+        distance: '200px',
+        origin: 'bottom',
+        duration: 2000,
+        reset: true,
+      });
+
+      ScrollReveal().reveal('#top', {
+        // delay:2000;
+        distance: '200px',
+        origin: 'top',
+        duration: 2000,
+        reset: true,
+
+
+      });
+
+      ScrollReveal().reveal('#left', {
+        // delay:3000;
+        distance: '200px',
+        origin: 'left',
+        duration: 2000,
+        reset: true,
+        // scale: 1.2,
+        opacity: 100,
+
+
+      });
+
+      ScrollReveal().reveal('#right', {
+        // delay:900;
+        distance: '200px',
+        origin: 'right',
+        duration: 2000,
+        reset: true,
+        // scale: 1.5,
+        opacity: 20,
+
+
+      });
+
+      ScrollReveal().reveal('#button', {
+        // delay:900,
+        distance: '40px',
+        origin: 'top',
+        duration: 2000,
+        reset: true,
+         // scale: 1.5,
+         opacity: 20,
+
+      });
+
+      ScrollReveal().reveal('#top-text', {
+        // delay:2000,
+        distance: '30px',
+        origin: 'top',
+        duration: 2000,
+        reset: true,
+        scale: 1,
+      });
+
+     
+    </script>
   </body>
 </html>

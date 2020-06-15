@@ -48,11 +48,11 @@
         <div class="container">
           <div class="row pt-4 mb-4">
             <div class="col text-center">
-              <h2>Contact US</h2>
+              <h2 id="left">Contact US</h2>
             </div>
           </div>
           <div class="row justify-content-center">
-            <div class="col-lg-4 kontakkiri">
+            <div class="col-lg-4 kontakkiri" id="bottom">
               <div class="card text-white bg-primary mb-3 text-center ">
                 <div class="card-body">
                   <h5 class="card-title">Contact Us</h5>
@@ -66,7 +66,7 @@
                 <li class="list-group-item">South Sumatera, Indonesia</li>
               </ul>
             </div>
-            <div class="col-lg-6 kontak">
+            <div class="col-lg-6 kontak" id="top">
               <form>
                 <div class="form-group">
                   <label for="nama">Name</label>
@@ -99,7 +99,7 @@
       <img src="./Assets/visual/visual2.png" alt="visual2" width="100%" height="auto"> 
       <div class="container">
         <div class="row justify-content-between">
-          <div class="col-lg-5">
+          <div class="col-lg-5" id="left">
             <div class="apa-kata-mereka">
             <h1><b>Apa Kata Mereka</b><br>
                   Tentang Kami </h1>
@@ -124,7 +124,7 @@
             </p>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3" id="right">
           <div class="review-konten text-center">
             <h1>4.8</h1>
             <h5>Widi Saputra</h5>
@@ -136,7 +136,7 @@
           </div>
         </div>
 
-        <div class="col-lg-3">
+        <div class="col-lg-3" id="right">
           <div class="review-konten text-center">
             <h1>4.8</h1>
             <h5>Widi Saputra</h5>
@@ -186,6 +186,72 @@
     <script src="./js/jquery.min.js" ></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js" ></script>
+    <script src="./js/scrollreveal.min.js"></script>
+    <script>
+      ScrollReveal().reveal('#bottom', {
+        // delay:3000;
+        distance: '200px',
+        origin: 'bottom',
+        duration: 2000,
+        reset: true,
+      });
+
+      ScrollReveal().reveal('#top', {
+        // delay:2000;
+        distance: '200px',
+        origin: 'top',
+        duration: 2000,
+        reset: true,
+
+
+      });
+
+      ScrollReveal().reveal('#left', {
+        // delay:3000;
+        distance: '200px',
+        origin: 'left',
+        duration: 2000,
+        reset: true,
+        // scale: 1.2,
+        opacity: 100,
+
+
+      });
+
+      ScrollReveal().reveal('#right', {
+        // delay:900;
+        distance: '200px',
+        origin: 'right',
+        duration: 2000,
+        reset: true,
+        // scale: 1.5,
+        opacity: 20,
+
+
+      });
+
+      ScrollReveal().reveal('#button', {
+        // delay:900,
+        distance: '40px',
+        origin: 'top',
+        duration: 2000,
+        reset: true,
+         // scale: 1.5,
+         opacity: 20,
+
+      });
+
+      ScrollReveal().reveal('#top-text', {
+        // delay:2000,
+        distance: '30px',
+        origin: 'top',
+        duration: 2000,
+        reset: true,
+        scale: 1,
+      });
+
+     
+    </script>
   </body>
 </html>
 
